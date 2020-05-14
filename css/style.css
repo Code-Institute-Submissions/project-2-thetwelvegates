@@ -1,0 +1,112 @@
+section {
+    padding: 0px 0;
+  }
+  
+  .masthead {
+    height: 100vh;
+    min-height:400px;
+    background-image: url('galaxy_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .centered {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes spinnerRotate {
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+  }
+  
+  @-webkit-keyframes spinnerRotate {
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+  }
+  
+  @-moz-keyframes spinnerRotate {
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+  }
+  
+  @-ms-keyframes spinnerRotate {
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+  }
+  
+  #spin {
+    text-align: center;
+    -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spinnerRotate;
+    -moz-animation-duration: 20s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spinnerRotate;
+    -ms-animation-duration: 20s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: spinnerRotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .spin2 {
+    animation: rotation 50s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .image-content {
+    width: 500px;
+    height: auto;
+  }
+  /* lg */
+  @media (min-width: 1200px) {
+    .image-content {
+        width: 420px;
+    }
+  }
+  /*xl*/
+  @media (min-width: 1400px) {
+    .image-content {
+        width: 600px;
+    }
+  }
+  
+  .enter {
+    padding-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+  }
