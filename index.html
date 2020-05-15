@@ -562,8 +562,80 @@
         </div>
       </div>
     </div>
-
   </section>
+
+    <!--Horoscope Predictions-->
+    <section id="horoscope-predictions">
+      <div class="jumbotron jumbotron-fluid horoscope-predictions">
+        <div class="container align-items-center">
+          <div class="text-white text-center">
+            <h2 class="title display-3">Horoscope Predictions</h2>
+            <div>
+              <div class="row">
+                <div class="col"></div>
+                <div class="col-10 col-md-6">
+                  <div class="dropdown predictions-title text-center">
+  
+                    <select class="form-control-prediction form-control" id="dropDown">
+                      <option value="choose"> 1. Choose Your Horoscope</option>
+                      <option value="aries">Aries</option>
+                      <option value="taurus">Taurus</option>
+                      <option value="gemini">Gemini</option>
+                      <option value="cancer">Cancer</option>
+                      <option value="leo">Leo</option>
+                      <option value="virgo">Virgo</option>
+                      <option value="libra">Libra</option>
+                      <option value="scorpio">Scorpio</option>
+                      <option value="sagittarius">Sagittarius</option>
+                      <option value="capricon">Capricon</option>
+                      <option value="aquarius">Aquarius</option>
+                      <option value="pisces">Pisces</option>
+                    </select>
+  
+                    <select class="form-control-day form-control mt-2" id="list">
+                      <option>2. Select the Day of Prediction</option>
+                      <option value="today">Today</option>
+                      <option value="tomorrow">Tomorrow</option>
+                      <option value="yesterday">Yesterday</option>
+                    </select>
+                  </div>
+                  
+                    <div id="choose" class="group"><img class="align-items-center mt-5 mb-3 spin2 img-fluid" src="img/crystal_ball.png" width="500px"></div>
+                    <div id="aries" class="group"><img class="align-items-center mt-5 mb-3" src="img/01_sign_aries.png" width="120px"></div>
+                    <div id="taurus" class="group"><img class="align-items-center mt-5 mb-3" src="img/02_sign_taurus.png"width="120px"></div>
+                    <div id="gemini" class="group"><img class="align-items-center mt-5 mb-3" src="img/03_sign_gemini.png" width="120px"></div>
+                    <div id="cancer" class="group"><img class="align-items-center mt-5 mb-3" src="img/04_sign_cancer.png" width="120px"></div>
+                    <div id="leo" class="group"><img class="align-items-center mt-5 mb-3" src="img/05_sign_leo.png"width="120px"></div>
+                    <div id="virgo" class="group"><img class="align-items-center mt-5 mb-3" src="img/06_sign_virgo.png" width="120px"></div>
+                    <div id="libra" class="group"><img class="align-items-center mt-5 mb-3" src="img/07_sign_libra.png" width="120px"></div>
+                    <div id="scorpio" class="group"><img class="align-items-center mt-5 mb-3" src="img/08_sign_scorpio.png"width="120px"></div>
+                    <div id="sagittarius" class="group"><img class="align-items-center mt-5 mb-3" src="img/09_sign_sagittarius.png" width="120px"></div>
+                    <div id="capricon" class="group"><img class="align-items-center mt-5 mb-3" src="img/10_sign_capricon.png" width="120px"></div>
+                    <div id="aquarius" class="group"><img class="align-items-center mt-5 mb-3" src="img/11_sign_aquarius.png"width="120px"></div>
+                    <div id="pisces" class="group"><img class="align-items-center mt-5 mb-3" src="img/12_sign_pisces.png" width="120px"></div>
+                  
+                    <div>
+                      <div id="aztro" style="list-style-type:none" class="personality-description text-left">
+                        <div id="current-date" class="font-weight-bold mb-3 text-info"></div>
+                        <div id="horo-description"></div>
+                        <div id="horo-date-range"></div>
+                        <div id="horo-compatibility"></div>
+                        <div id="horo-color"></div>
+                        <div id="horo-mood"></div>
+                        <div id="horo-lucky-time" class="text-warning mt-2"></div>
+                        <p id="clockDisplay" class="text-warning"></p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col"></div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      
+    </section>
 
   <!-- JQUERY, JAVASCRIPT AND AXIOS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
