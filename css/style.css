@@ -79,7 +79,7 @@ section {
     to{-ms-transform:rotate(360deg);}
   }
   
-  #spin {
+  .spin {
     text-align: center;
     -webkit-animation-name: spinnerRotate;
     -webkit-animation-duration: 20s;
