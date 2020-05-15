@@ -1,3 +1,9 @@
+@media (min-width: 768px) and (max-width: 1000px) {
+  .collapse {
+      display: none !important;
+  }
+}
+
 section {
     padding: 0px 0;
   }
