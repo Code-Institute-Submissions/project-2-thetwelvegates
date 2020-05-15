@@ -12,7 +12,85 @@ $(document).ready(function () {
                 $('.group2').hide();
                 $('#'+$(this).val()).show();
         })
-    
+    $('.group').hide();
+    $('#choose').show(); 
+
+    $(".form-control-prediction").on('change', function () {
+      console.log("changing info");
+      var selectedVal = $(this).find('option:selected').attr('value');
+      console.log("user selected horoscope....: " + selectedVal);
+        $('.group').hide();
+        $('#'+$(this).val()).show();
+  
+    $(".form-control-day").on('change', function () {
+      console.log("changing info");
+      var selectedDay = $(this).find('option:selected').attr('value');
+      console.log("user selected day....: " + selectedDay);
+  
+      var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url":'https://aztro.sameerkumar.website?sign='+selectedVal+'&day='+selectedDay+'',
+        //"url": `https://aztro.sameerkumar.website/?sign='+${selectedVal}+'&day='+${day}+`,
+        "method": "POST",
+      }
+      //make horoscope call
+      $.ajax(settings)
+        .done(function (response) {
+  
+          //do whatever I want here to update HTML
+          console.log(`Current Date:${response.current_date}`);
+          console.log(`Date Range:${response.date_range}`);
+          console.log(`Horoscope: ${response.description}`);
+          console.log(`Horoscope: ${response.compatibility}`);
+          console.log(`Horoscope: ${response.color}`);
+          console.log(`Horoscope: ${response.mood}`);
+          console.log(`Horoscope: ${response.lucky_number}`);
+          console.log(`Horoscope: ${response.lucky_time}`);
+  
+      let currentDate = "Horoscope Reading for " + response.current_date;
+      $("#current-date").html(currentDate);
+  
+      let horoDescription = response.description;
+      $("#horo-description").html(horoDescription);
+  
+      let horoDateRange = "Horoscope Date Range: " + response.date_range;
+      $("#horo-date-range").html(horoDateRange);
+  
+      let horoCompatibility = "Compatible Horoscope: " + response.compatibility;
+      $("#horo-compatibility").html(horoCompatibility);
+  
+      let horoColor = "Color: " + response.color;
+      $("#horo-color").html(horoColor);
+  
+      let horoMood = "Mood: " + response.mood;
+      $("#horo-mood").html(horoMood);
+  
+      let horoLuckyNum = "Lucky Number: " + response.lucky_number;
+      $("#horo-lucky-num").html(horoLuckyNum);
+  
+      let horoLuckyTime = "Lucky Time: " + response.lucky_time;
+      $("#horo-lucky-time").html(horoLuckyTime);
+        });
+      });
+    });
+
+  
+
+// Clock Display
+window.onload = initClock;
+ 
+function initClock() {
+  var now = new Date();
+  var hr  = now.getHours();
+  var min = now.getMinutes();
+  var sec = now.getSeconds();
+  if (min < 10) min = "0" + min;  // insert a leading zero
+  if (sec < 10) sec = "0" + sec;
+  document.getElementById('clockDisplay').innerHTML
+        = "Current Time is " + hr + ":" + min + ":" + sec;
+  setTimeout('initClock()', 500);
+}
 });
 
 //Display Horoscope by Birthdate
