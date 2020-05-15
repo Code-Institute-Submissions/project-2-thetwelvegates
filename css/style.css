@@ -121,7 +121,70 @@ section {
     height: 100%;
   }
 
+  .personality-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .personality-description{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+  }
+
+/* Horoscope Prediction Section*/
+.horoscope-predictions{
+  background-image: url("horoscope_bg.jpg");
+  background-size: cover;
+  align-content: center;
+  background-position: center;
+}
+
+.sign{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  margin:0;
+}
+
+.sign-period{
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  margin: 0;
+}
+
+.sign-img{
+  padding-top: 12px;
+}
+
+.sign-img:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.predictions-title{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.predictions-description{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+}
+
+
 /* Sections CSS */
+.jumbotron{
+  margin-bottom: 0;
+}
+
  .body-text{
     font-family: 'Lato', sans-serif;
     font-size: 20px;
