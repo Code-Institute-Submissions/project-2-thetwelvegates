@@ -20,8 +20,7 @@ $(document).ready(function () {
                 $(".modal-title").html(currentDate);
 
                 let horoDescription = response.description;
-                $(".modal-body").html(horoDescription);
-
+                $(".modal-body").html(horoDescription);          
             });
     });
 });
