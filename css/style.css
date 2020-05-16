@@ -410,3 +410,7 @@ section {
   align-content: center;
   background-position: center;
 }
+
+.btn{
+  padding: :0;
+}
