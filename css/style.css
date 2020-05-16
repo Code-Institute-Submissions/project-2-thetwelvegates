@@ -26,6 +26,7 @@ section {
     padding: 0px 0;
   }
 
+
   /*Masthead CSS*/
   .masthead {
     height: 100vh;
@@ -141,8 +142,10 @@ section {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-style: italic;
+    color: rgb(10,189,198)
  }
-.horoscope-personality{
+
+ .horoscope-personality{
     background-image: url("galaxy_bg.jpg");
     background-size: cover;
     align-content: center;
@@ -222,6 +225,11 @@ section {
   font-style: normal;
 }
 
+.text-info{
+  color: rgb(10,189,198);
+  font-size: 24px;
+}
+
 
 /* Sections CSS */
 .jumbotron{
@@ -230,8 +238,9 @@ section {
 
  .body-text{
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
+    color: rgb(10,189,198);
   }
   
  .body-text2{
