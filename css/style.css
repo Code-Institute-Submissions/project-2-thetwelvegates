@@ -157,6 +157,13 @@ section {
     font-style: normal;
   }
 
+  .personality-description .click{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color:rgb(222, 139, 165);
+  }
+
 /* Horoscope Prediction Section*/
 .pick-your-horoscope {
   background-image: url("horoscope_bg.jpg");
