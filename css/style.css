@@ -411,6 +411,21 @@ section {
   background-position: center;
 }
 
-.btn{
-  padding: :0;
+/*footer*/
+.footer-text{
+  font-size: 10px;
+}
+
+/*form*/
+.form-text{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.form-title{
+  color: rgb(10,189,198);
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-style: normal;
 }
