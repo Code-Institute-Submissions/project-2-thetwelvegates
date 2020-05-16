@@ -416,6 +416,11 @@ section {
   font-size: 10px;
 }
 
+.footer-text2{
+  font-size: 14px;
+  color:rgb(222, 139, 165);
+}
+
 /*form*/
 .form-text{
   font-family: 'Lato', sans-serif;
