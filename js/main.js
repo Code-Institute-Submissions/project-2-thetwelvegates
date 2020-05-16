@@ -1,5 +1,18 @@
 $(document).ready(function () {
-    
+    //Horoscope Personality - Compatibility
+    $('.click').on('click', function(){
+	    var value = $(this).attr("rel");
+	    value++;
+	    $('#select').find('option:nth-child(' + value + ')').prop('selected',true).trigger('change');
+	    return false;
+  });
+  
+  $('#clicknav').on('click', function(){
+    var value = $(this).attr("rel");
+    value++;
+    $('#select').find('option:nth-child(' + value + ')').prop('selected',true).trigger('change');
+    return false;
+});
     //Toggle Navbar open when collapse
     $(".navbar-toggler").click(function(){
       $(".collapse").collapse('toggle');
@@ -15,13 +28,7 @@ $(document).ready(function () {
     $('.group').hide();
     $('#choose').show(); 
 
-    //Horoscope Personality - Compatibility
-    $('.click').on('click', function(){
-	    var value = $(this).attr("rel");
-	    value++;
-	    $('#select').find('option:nth-child(' + value + ')').prop('selected',true).trigger('change');
-	    return false;
-	});
+    
 
     //Horoscope Pridictions - Today, Tomorrow, Yesterday
     $(".form-control-prediction").on('change', function () {
