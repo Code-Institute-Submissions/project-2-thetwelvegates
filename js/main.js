@@ -1,18 +1,13 @@
 $(document).ready(function () {
+    $('#clockDisplay').hide();
     //Horoscope Personality - Compatibility
     $('.click').on('click', function(){
 	    var value = $(this).attr("rel");
 	    value++;
 	    $('#select').find('option:nth-child(' + value + ')').prop('selected',true).trigger('change');
 	    return false;
-  });
+    });
   
-  $('#clicknav').on('click', function(){
-    var value = $(this).attr("rel");
-    value++;
-    $('#select').find('option:nth-child(' + value + ')').prop('selected',true).trigger('change');
-    return false;
-});
     //Toggle Navbar open when collapse
     $(".navbar-toggler").click(function(){
       $(".collapse").collapse('toggle');
@@ -87,6 +82,7 @@ $(document).ready(function () {
   
       let horoLuckyTime = "Lucky Time: " + response.lucky_time;
       $("#horo-lucky-time").html(horoLuckyTime);
+      $('#clockDisplay').show();
         });
       });
     });
@@ -95,16 +91,16 @@ $(document).ready(function () {
 
 // Clock Display
 window.onload = initClock;
- 
+
 function initClock() {
   var now = new Date();
   var hr  = now.getHours();
   var min = now.getMinutes();
   var sec = now.getSeconds();
   if (min < 10) min = "0" + min;  // insert a leading zero
-  if (sec < 10) sec = "0" + sec;
+  
   document.getElementById('clockDisplay').innerHTML
-        = "Current Time is " + hr + ":" + min + ":" + sec;
+        = "Current Time is " + hr + ":" + min;
   setTimeout('initClock()', 500);
 }
 });
