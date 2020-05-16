@@ -7,13 +7,14 @@ $(document).ready(function () {
         console.log("changing info");
         var selectedVal = $(this).find('option:selected').attr('value');
         console.log("user selected horoscope....: " + selectedVal);
-        $('.group3').hide();
         
 
         $(".form-control-day3").on('change', function () {
             console.log("changing info");
             var selectedDay = $(this).find('option:selected').attr('value');
             console.log("user selected day....: " + selectedDay);
+            $('.group3').hide();
+            $('#'+$(this).val()).show();
 
             var settings = {
                 "async": true,
