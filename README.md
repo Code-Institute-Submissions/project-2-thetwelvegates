@@ -1,8 +1,14 @@
-# Your Project's Name
+# The Twelve Gates - Website for Astrology Predictions 
+##  Code Institute - Interactive Frontend Development Milestone Project (2)
+##  Student Name: Denise Lee Chew Woon
 
-One or two paragraphs providing an overview of your project.
+For this Project, a website was created for users to understand the world of astrology readings and how they may plan for their lives with their horoscope signs predictions. This was built from a fictitious astrology company point of view.
 
-Essentially, this part is your sales pitch.
+<a href="https://ibb.co/6wDnDj4"><a href="https://ibb.co/6wDnDj4"><img src="https://i.ibb.co/r0575DZ/thetwelvegates-browser.png" alt="thetwelvegates-browser" border="0"></a>
+
+
+
+The site may be viewed [here](https://deniseleechewwoon.github.io/project-2-thetwelvegates/index.html).
  
 ## UX
  
@@ -37,6 +43,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
+
+Page content fits device width
+Text on the page is readable
+Links and tap targets are sufficiently large and touch-friendly
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
