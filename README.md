@@ -4,7 +4,7 @@
 
 For this Project, a website was created for users to understand the world of astrology readings and how they may plan for their lives with their horoscope signs predictions. This was built from a fictitious astrology company point of view.
 
-<a href="https://ibb.co/6wDnDj4"><a href="https://ibb.co/6wDnDj4"><img src="https://i.ibb.co/r0575DZ/thetwelvegates-browser.png"  width="100" alt="thetwelvegates-browser" border="0"></a>
+<a href="https://ibb.co/6wDnDj4"><a href="https://ibb.co/6wDnDj4"><img src="https://i.ibb.co/r0575DZ/thetwelvegates-browser.png"  width="400" alt="thetwelvegates-browser" border="0"></a>
 
 
 
