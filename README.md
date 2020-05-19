@@ -9,14 +9,17 @@ For this Project, a website was created for users to understand the world of ast
 The site may be viewed [here](https://deniseleechewwoon.github.io/project-2-thetwelvegates/index.html).
 
 This website is created to cater to astrology enthusiasts and bring them 
-through the journey of self-exploration by astrology analysis and predictions. Eventually, the website aims to entice users to join the community in astrology exploration. From the company name- The Twelve Gates to the chosen colour scheme to the website design concept, the objective is to provide a mystical touch to the website and to retain the target audience with the content.
+through the journey of self-exploration by astrology analysis and predictions. Eventually, the website aims to entice users to join the community in astrology exploration. From the company name- The Twelve Gates to the chosen colour scheme to the website design concept, the objective is to provide a mystical touch to the website and retain target audience with interactive and relevant content.
 
- 
 ## UX
 
 The target audience for the website will be
 * Consumers looking for professional astrology analysis
 * Astrology enthusiasts
+
+In order to achieve the intent of converting viewers of the website to join and start the journey of astrology exploration, the website aims to portray a mystical feel such that it will appeal users to uncover and continue this journey. It uses a mystical background and colours to invoke feelings of space and a dreamy place far away for users to probe into. A five-colour palette scheme consisting of mostly cool colours was maintained throughout the whole website design. The website strives to represent a certain degree of professionalism by keeping information displayed clear and concise. Design theme is consistent and is evident through the initial sketching of the wireframe. A copy of the sketch may be viewed [here](https://drive.google.com/file/d/1ATZ9VVzVksHhqBNzuDIiaaciW4HLD4UN/view?usp=sharing).
+
+
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
