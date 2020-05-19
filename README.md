@@ -2,15 +2,21 @@
 ##  Code Institute - Interactive Frontend Development Milestone Project (2)
 ##  Student Name: Denise Lee Chew Woon
 
-For this Project, a website was created for users to understand the world of astrology readings and how they may plan for their lives with their horoscope signs predictions. This was built from a fictitious astrology company point of view.
+For this Project, a website was created for users to understand the world of astrology readings and how they may plan for their lives with their horoscope signs predictions. This was built from the point of view of a fictitious astrology company.
 
 <a href="https://ibb.co/6wDnDj4"><a href="https://ibb.co/6wDnDj4"><img src="https://i.ibb.co/r0575DZ/thetwelvegates-browser.png"  width="400" alt="thetwelvegates-browser" border="0"></a>
 
-
-
 The site may be viewed [here](https://deniseleechewwoon.github.io/project-2-thetwelvegates/index.html).
+
+This website is created to cater to astrology enthusiasts and bring them 
+through the journey of self-exploration by astrology analysis and predictions. Eventually, the website aims to entice users to join the community in astrology exploration. From the company name- The Twelve Gates to the chosen colour scheme to the website design concept, the objective is to provide a mystical touch to the website and to retain the target audience with the content.
+
  
 ## UX
+
+The target audience for the website will be
+* Consumers looking for professional astrology analysis
+* Astrology enthusiasts
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
