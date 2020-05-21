@@ -89,45 +89,40 @@ The site is manually tested on a macbook pro, windows laptop, andriod mobile dev
 * Page content fits device width and is responsive on all devices
 * Text on the page is readable
 * Links and tap targets are sufficiently large and touch-friendly
+* The navbar to access all the Sections (Home > Horoscope Personality > Horoscope Predictions(with dropdown) > Contact) is tested to ensure it works well
 
 On all platforms, the following were tested
 
-1. Landing Page
-    - The animated slide in effect of the page works well with every refresh
-    - The button ia able to bring the users to the About Page works well
-2. About Us
-    - The navbar to access all the pages (Home > About Us > Galleries > Contact) is tested to ensure it works well
-    - There is a image hover effect on all the profile pictures of the team and it is tested to work well
-3. Galleries
-    - The navbar to access all the pages (Home > About Us > Galleries > Contact) is tested to ensure it works well
-    - There is a image hover link to each gallery and is tested to work well
-4. Contact
-    - The navbar to access all the pages (Home > About Us > Galleries > Contact) is tested to ensure it works well
+1. Landing Section
+    - The animated graphics in effect of the page works well with every refresh
+    - The button is able to bring the users to the main section works well
+2. Horoscope Personlity Section
+    - All the different dates for the twelve horoscope were entered to test that the javascript will return and reflect the right horoscope sign on the page
+    - All twelve horoscopes were selected from the dropdown to ensure that the respective data is reflected upon selection
+    - Clicked on all compatible horoscope signs and ensure that they were linked to the correct horoscope to display data
+    - The button is able to bring the users to the next section works well
+3. Horoscope Predictions (Daily) Section
+    - There is a image hover effect on all the twelve horoscope signs and it is tested to work well
+    - On larger screens, the icons were set to disply as a four-column so that it is not cluttered, tested to display well on larger screens
+    - On samller screens, the icons were set to display as a two-column to ensure visibility of the icons, tested to display well on smaller screens
+    - All the twelve horoscope signs were clicked and tested to work well
+    - On click on respective graphic for each sign, the modal component managed to pop up in the middle of the page. It was tested to work well on a mobile screen as well.
+    - The button is able to bring the users to the next section works well
+4. Horoscope Predictions (Today-Tomorrow-Yesterday) Section
+    - All twelve horoscopes and corresponding day were selected from the dropdown to ensure that the respective data is reflected upon selection
+    - There is a clock function and clock works well with every refresh
+    - The button is able to bring the users to the next section works well
+5. Horoscope Predictions (Week-Month-Year) Section
+    - All twelve horoscopes and corresponding period were selected from the dropdown to ensure that the respective data is reflected upon selection
+    - There is a loading animation upon selection of data and is tested to work well with every refresh
+6. Contact Us Section
     - Try to submit an empty form and verify that an error message about the required fields appears
     - Try to submit the form with an invalid email address and verify that a relevant error message appears
 
 The site was manually tested on different browsers (Chrome, Safari, Morzilla Firefox and Internet Explorer).
-The site works well on all browsers except for internet explorer. In internet explorer, the individual gallary page was not able to load the photos nicely as it does on other browsers.
+The site works well on all browsers.
 
 The site was also tested using online platform [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) and results show that page is mobile friendly and easy to use on a mobile device.
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
