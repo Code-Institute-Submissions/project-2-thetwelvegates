@@ -53,32 +53,63 @@ Last but not least, I hope to finally establish a contact with the user of the w
 
 * [Contact Section](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#contact-us)
     1. Required fields and form validator for options in form.
-    
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+* To add in Horoscope Compatibility Data and Features to compare Horoscopes
+* To add in a depository for the contact us page - make the form workable
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+* [HTML](https://www.w3schools.com/html/) - standard markup language for creating web pages
+    - HTML is basically used throughout the whole document to construct the various segments and putting things together
 
-- [JQuery](https://jquery.com)
+* [CSS](https://www.w3schools.com/css/) - describes the style of the HTML document
+    - CSS is important to maintain the look, style and feel of the website
+
+* [Bootstrap 4.4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - popular framework for building responsive, mobile-first sites
+    - Bootstrap framework makes things easier to have basic features and minimised the use of css styling with bootstrap features
+
+* [Javascript](https://www.youtube.com/watch?v=gnDOjWUSHks)
+    - Javascript is used to create a responsive lightbox - modal image gallery
+
+* [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
+* [AJAX](https://www.w3schools.com/xml/ajax_intro.asp)
+    - A browser built-in XMLHttpRequest object (to request data from a web server) JavaScript and HTML DOM (to display or use the data)
+
+* [APIs]
+    - [Horoscope API 1](https://github.com/anujsinghwd/horoscope_API#get-httpsraashiphalherokuappcomtypemonthsunsignsunsign)
+    - [Horoscope API 2](https://github.com/sameerkumar18/aztro)
 
 ## Testing
 
-Page content fits device width
-Text on the page is readable
-Links and tap targets are sufficiently large and touch-friendly
+The site is manually tested on a macbook pro, windows laptop, andriod mobile device (Samsung note 9) and ipad to ensure the responsiveness and that all the links work well.
+
+* Page content fits device width and is responsive on all devices
+* Text on the page is readable
+* Links and tap targets are sufficiently large and touch-friendly
+
+On all platforms, the following were tested
+
+1. Landing Page
+    - The animated slide in effect of the page works well with every refresh
+    - The button ia able to bring the users to the About Page works well
+2. About Us
+    - The navbar to access all the pages (Home > About Us > Galleries > Contact) is tested to ensure it works well
+    - There is a image hover effect on all the profile pictures of the team and it is tested to work well
+3. Galleries
+    - The navbar to access all the pages (Home > About Us > Galleries > Contact) is tested to ensure it works well
+    - There is a image hover link to each gallery and is tested to work well
+4. Contact
+    - The navbar to access all the pages (Home > About Us > Galleries > Contact) is tested to ensure it works well
+    - Try to submit an empty form and verify that an error message about the required fields appears
+    - Try to submit the form with an invalid email address and verify that a relevant error message appears
+
+The site was manually tested on different browsers (Chrome, Safari, Morzilla Firefox and Internet Explorer).
+The site works well on all browsers except for internet explorer. In internet explorer, the individual gallary page was not able to load the photos nicely as it does on other browsers.
+
+The site was also tested using online platform [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) and results show that page is mobile friendly and easy to use on a mobile device.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -99,6 +130,13 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
+
+This site is hosted on Github Pages and directly deployed from the master branch.
+A repository was firstly created using github and commits were pushed to the master branch. Materials are pushed to the GitHub repository with git add, git commit, and git push.
+Eventually, the deployed site will be updated automatically upon any new commits. 
+
+The landing page of the site is named index.html.
+There are 2 folders, namely CSS and Img to place the css stylesheet and images on the website respectively. 
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
