@@ -19,14 +19,14 @@ The target audience for the website will be
 
 In order to achieve the intent of converting viewers of the website to join and start the journey of astrology exploration, the website aims to portray a mystical feel such that it will appeal users to uncover and continue this journey. It uses a mystical background and colours to invoke feelings of space and a dreamy place far away for users to probe into. A five-colour palette scheme consisting of mostly cool colours was maintained throughout the whole website design. The website strives to represent a certain degree of professionalism by keeping information displayed clear and concise. Design theme is consistent and is evident through the initial sketching of the wireframe. A copy of the sketch may be viewed [here](https://drive.google.com/file/d/1ATZ9VVzVksHhqBNzuDIiaaciW4HLD4UN/view?usp=sharing).
 
+Besides the look, the website also ensure that it is user-friendly and interactive. When a user first enter the website, they will be greeted by a captivating animated graphic, quote followed by a button. This will induce the user to look at the graphic and quote before they officially enter to the main section of this single-page website.
 
+By bringing the users directly to the main section, it guides them immediately to find out about the agenda of the website. In there, users will be greeted with an interactive feature to find out their horoscope sign after they enter their birthdate. On activating the feature, it will display : You are a Capricorn (Horoscope Sign). Using this, I hope to create a light-hearted and welcoming interaction on the page. Right after, they will be able to select their horoscope and read about their personality and even conveniently select compatible horoscope signs by simply clicking on it to bring them to read about their introduction as well.
+
+Another important agenda of the website is to let users read about horoscope predictions. It is illustrated in three sections on the page, 1) Daily, 2) Today-Yesterday-Tomorrow and 3) Week-Month-Year.
+For Daily, it is well-illustrated by having 12 horoscope sign images displayed. On click, a modal component will be presented with the daily predictions readings. For both Today-Yesterday-Tomorrow and Week-Month-Year, the user will be able to select their horoscope and which day(s) they would like to read about their predictions. As the API for the Week-Month-Year takes a slightly longer time to load and display the content, a loading animation was added upon user's selection and will hide when information is displayed. This feature allow the user to recognise that the option selcted is valid and website is actually responding to their selections.
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Last but not least, I hope to finally establish a contact with the user of the website. To keep the users, I hope to keep it simple by establishing a clear and painless contact form for them to fill in. The fileds were made required so the company will be able to follow up with them by providing a personalisedstrology report for them.
 
 ## Features
 
