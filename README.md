@@ -137,11 +137,30 @@ There are 3 folders, namely js, cc and img to place the various Javascript files
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the various sections were taken and modified from the following websites
+  *[GaneshaSpeaks](https://www.ganeshaspeaks.com/horoscopes/yearly-horoscope/)
+  *[Yearly Horoscopes](https://www.yearly-horoscope.org/2020-horoscopes/)
+  *[wikiHow Horoscope](https://www.wikihow.com/Know-Your-Horoscope)
+  *[Thought Catalog Quotes By Jessica Winters](https://thoughtcatalog.com/jessica-winters/2016/11/33-classic-quotes-that-reveal-the-timeless-wisdom-of-astrology/)
+- Specifically, the text for the Horosocope Personality were all taken from [Thought Catalog Article By Gianna Fazzini](https://thoughtcatalog.com/gianna-fazzini/2018/03/everything-you-need-to-know-about-each-of-the-12-zodiac-personalities/)
+
+- For the Horoscope Predictions, data were retreieved from the following API 
+    * [Horoscope API 1](https://github.com/anujsinghwd/horoscope_API#get-httpsraashiphalherokuappcomtypemonthsunsignsunsign)
+    * [Horoscope API 2](https://github.com/sameerkumar18/aztro)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were all obtained from [freepik](https://www.freepik.com/home) - a stock image library. Please refer to the full credits and link for each image [here](https://drive.google.com/open?id=1RW7ISUwm2yo8boamNulaxKoPbtTykVB8)
+
+- Some of the graphics were edited using [Photoshop](https://www.adobe.com/sea/products/photoshop.html?gclid=EAIaIQobChMI_rXt5v2c6AIVWq6WCh3BSwRuEAAYASAAEgIzIPD_BwE&sdid=YP7XGDLR&mv=search&ef_id=EAIaIQobChMI_rXt5v2c6AIVWq6WCh3BSwRuEAAYASAAEgIzIPD_BwE:G:s&s_kwcid=AL!3085!3!400503272159!e!!g!!photoshop) by myself.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- CSS Styling by [Bootstrap4](https://getbootstrap.com/).
+- All fonts used for this site are obtained from [google fonts](https://fonts.google.com/).
+- The landing section star icon is obtained from [Font Awesome](https://fontawesome.com/).
+- The Javascript to identify Horoscope is edited from [CourseWeb.net](https://coursesweb.net/javascript/zodiac-signs_cs)
+- The Time clock javascript is inspired from [here](https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/JavaScript_Examples.html)
+- The loading animation is inspired and obtained from [CSS Loaders](https://freefrontend.com/css-loaders/)
+- The spinning image animation is inspired and obtained from [Sololearn](https://code.sololearn.com/WX6x1c56OFb5/#html)
+
+### This website created is for educational use.
