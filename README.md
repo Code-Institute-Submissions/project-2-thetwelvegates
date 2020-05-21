@@ -26,11 +26,34 @@ By bringing the users directly to the main section, it guides them immediately t
 Another important agenda of the website is to let users read about horoscope predictions. It is illustrated in three sections on the page, 1) Daily, 2) Today-Yesterday-Tomorrow and 3) Week-Month-Year.
 For Daily, it is well-illustrated by having 12 horoscope sign images displayed. On click, a modal component will be presented with the daily predictions readings. For both Today-Yesterday-Tomorrow and Week-Month-Year, the user will be able to select their horoscope and which day(s) they would like to read about their predictions. As the API for the Week-Month-Year takes a slightly longer time to load and display the content, a loading animation was added upon user's selection and will hide when information is displayed. This feature allow the user to recognise that the option selcted is valid and website is actually responding to their selections.
  
-Last but not least, I hope to finally establish a contact with the user of the website. To keep the users, I hope to keep it simple by establishing a clear and painless contact form for them to fill in. The fileds were made required so the company will be able to follow up with them by providing a personalisedstrology report for them.
+Last but not least, I hope to finally establish a contact with the user of the website. To keep the users, I hope to keep it simple by establishing a clear and painless contact form for them to fill in. The fields were made required so the company will be able to follow up with them by providing a personalisedstrology report for them.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+* Left Logo, Sticky-top Navigation Bar - Easy access and is mobile responsive
+* [Landing Section](https://deniseleechewwoon.github.io/project-2-thetwelvegates/) 
+    1. Animated graphics that is appropriate for the theme of the webpage - Brings some life to the static page.
+    2. Mobile responsive graphic.
+* [Horoscope Personality Section](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#horoscope-personality) 
+    1. Interactive Feature javascript to generate Horoscope Sign based on data entered using Javascript.
+    2. Interative Feature using javascript to generate Horoscope Personality readings based on selection.
+    3. Click on compatible horoscope to display their Personality readings as well.
+* [Horoscope Predictions - Daily](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#pick-your-horoscope)
+    1. Responsive icons on hover for each hroroscope sign.
+    2. Mobile responsive modal will be displayed upon click using css and javascript to fetch API.
+
+* [Horoscope Predictions - Today-Tomorrow-Yesterday](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#horoscope-predictions)
+    1. Animated Graphic with css displayed before selection
+    2. Interative Feature using javascript to fetch api and generate Horoscope Pridiction readings based on selection.
+
+* [Horoscope Predictions - Week-Month-Year](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#horoscope-predictions2)
+    1. Animated Graphic with css displayed before selection
+    2. Interative Feature using javascript to fetch api and generate Horoscope Pridiction readings based on selection.
+    3. As the api takes longer to be fetched, an loading animation using css was added to allow user to be aware that option selected is responding to their call.
+
+* [Contact Section](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#contact-us)
+    1. Required fields and form validator for options in form.
+    
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
