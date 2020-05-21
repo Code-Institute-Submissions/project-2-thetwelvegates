@@ -131,16 +131,7 @@ A repository was firstly created using github and commits were pushed to the mas
 Eventually, the deployed site will be updated automatically upon any new commits. 
 
 The landing page of the site is named index.html.
-There are 2 folders, namely CSS and Img to place the css stylesheet and images on the website respectively. 
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+There are 3 folders, namely js, cc and img to place the various Javascript files, css stylesheet and images on the website respectively. 
 
 
 ## Credits
