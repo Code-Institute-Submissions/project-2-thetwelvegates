@@ -24,9 +24,9 @@ Besides the look, the website also ensure that it is user-friendly and interacti
 By bringing the users directly to the main section, it guides them immediately to find out about the agenda of the website. In there, users will be greeted with an interactive feature to find out their horoscope sign after they enter their birthdate. On activating the feature, it will display : You are a Capricorn (Horoscope Sign). Using this, I hope to create a light-hearted and welcoming interaction on the page. Right after, they will be able to select their horoscope and read about their personality and even conveniently select compatible horoscope signs by simply clicking on it to bring them to read about their introduction as well.
 
 Another important agenda of the website is to let users read about horoscope predictions. It is illustrated in three sections on the page, 1) Daily, 2) Today-Yesterday-Tomorrow and 3) Week-Month-Year.
-For Daily, it is well-illustrated by having 12 horoscope sign images displayed. On click, a modal component will be presented with the daily predictions readings. For both Today-Yesterday-Tomorrow and Week-Month-Year, the user will be able to select their horoscope and which day(s) they would like to read about their predictions. As the API for the Week-Month-Year takes a slightly longer time to load and display the content, a loading animation was added upon user's selection and will hide when information is displayed. This feature allow the user to recognise that the option selcted is valid and website is actually responding to their selections.
+For Daily, it is well-illustrated by having 12 horoscope sign images displayed. On click, a modal component will be presented with the daily predictions readings. For both Today-Yesterday-Tomorrow and Week-Month-Year, the user will be able to select their horoscope and which day(s) they would like to read about their predictions. As the API for the Week-Month-Year takes a slightly longer time to load and display the content, a loading animation was added upon user's selection and will hide when information is displayed. This feature allow the user to recognise that the option selected is valid and website is actually responding to their selections.
  
-Last but not least, I hope to finally establish a contact with the user of the website. To keep the users, I hope to keep it simple by establishing a clear and painless contact form for them to fill in. The fields were made required so the company will be able to follow up with them by providing a personalisedstrology report for them.
+Last but not least, I hope to finally establish a contact with the user of the website. To keep the users, I hope to keep it simple by establishing a clear and painless contact form for them to fill in. The fields were made required so the company will be able to follow up with them by providing a personalised astrology report for them.
 
 ## Features
 
@@ -36,19 +36,19 @@ Last but not least, I hope to finally establish a contact with the user of the w
     2. Mobile responsive graphic.
 * [Horoscope Personality Section](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#horoscope-personality) 
     1. Interactive Feature javascript to generate Horoscope Sign based on data entered using Javascript.
-    2. Interative Feature using javascript to generate Horoscope Personality readings based on selection.
+    2. Interactive Feature using javascript to generate Horoscope Personality readings based on selection.
     3. Click on compatible horoscope to display their Personality readings as well.
 * [Horoscope Predictions - Daily](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#pick-your-horoscope)
-    1. Responsive icons on hover for each hroroscope sign.
+    1. Responsive icons on hover for each horoscope sign.
     2. Mobile responsive modal will be displayed upon click using css and javascript to fetch API.
 
 * [Horoscope Predictions - Today-Tomorrow-Yesterday](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#horoscope-predictions)
     1. Animated Graphic with css displayed before selection
-    2. Interative Feature using javascript to fetch api and generate Horoscope Pridiction readings based on selection.
+    2. Interactive Feature using javascript to fetch api and generate Horoscope Pridiction readings based on selection.
 
 * [Horoscope Predictions - Week-Month-Year](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#horoscope-predictions2)
     1. Animated Graphic with css displayed before selection
-    2. Interative Feature using javascript to fetch api and generate Horoscope Pridiction readings based on selection.
+    2. Interactive Feature using javascript to fetch api and generate Horoscope Prediction readings based on selection.
     3. As the api takes longer to be fetched, an loading animation using css was added to allow user to be aware that option selected is responding to their call.
 
 * [Contact Section](https://deniseleechewwoon.github.io/project-2-thetwelvegates/#contact-us)
@@ -96,15 +96,15 @@ On all platforms, the following were tested
 1. Landing Section
     - The animated graphics in effect of the page works well with every refresh
     - The button is able to bring the users to the main section works well
-2. Horoscope Personlity Section
+2. Horoscope Personality Section
     - All the different dates for the twelve horoscope were entered to test that the javascript will return and reflect the right horoscope sign on the page
     - All twelve horoscopes were selected from the dropdown to ensure that the respective data is reflected upon selection
     - Clicked on all compatible horoscope signs and ensure that they were linked to the correct horoscope to display data
     - The button is able to bring the users to the next section works well
 3. Horoscope Predictions (Daily) Section
     - There is a image hover effect on all the twelve horoscope signs and it is tested to work well
-    - On larger screens, the icons were set to disply as a four-column so that it is not cluttered, tested to display well on larger screens
-    - On samller screens, the icons were set to display as a two-column to ensure visibility of the icons, tested to display well on smaller screens
+    - On larger screens, the icons were set to display as a four-column so that it is not cluttered, tested to display well on larger screens
+    - On smaller screens, the icons were set to display as a two-column to ensure visibility of the icons, tested to display well on smaller screens
     - All the twelve horoscope signs were clicked and tested to work well
     - On click on respective graphic for each sign, the modal component managed to pop up in the middle of the page. It was tested to work well on a mobile screen as well.
     - The button is able to bring the users to the next section works well
@@ -138,18 +138,18 @@ There are 3 folders, namely js, cc and img to place the various Javascript files
 
 ### Content
 - The text for the various sections were taken and modified from the following websites
-  *[GaneshaSpeaks](https://www.ganeshaspeaks.com/horoscopes/yearly-horoscope/)
-  *[Yearly Horoscopes](https://www.yearly-horoscope.org/2020-horoscopes/)
-  *[wikiHow Horoscope](https://www.wikihow.com/Know-Your-Horoscope)
-  *[Thought Catalog Quotes By Jessica Winters](https://thoughtcatalog.com/jessica-winters/2016/11/33-classic-quotes-that-reveal-the-timeless-wisdom-of-astrology/)
-- Specifically, the text for the Horosocope Personality were all taken from [Thought Catalog Article By Gianna Fazzini](https://thoughtcatalog.com/gianna-fazzini/2018/03/everything-you-need-to-know-about-each-of-the-12-zodiac-personalities/)
+  * [GaneshaSpeaks](https://www.ganeshaspeaks.com/horoscopes/yearly-horoscope/)
+  * [Yearly Horoscopes](https://www.yearly-horoscope.org/2020-horoscopes/)
+  * [wikiHow Horoscope](https://www.wikihow.com/Know-Your-Horoscope)
+  * [Thought Catalog Quotes By Jessica Winters](https://thoughtcatalog.com/jessica-winters/2016/11/33-classic-quotes-that-reveal-the-timeless-wisdom-of-astrology/)
+- Specifically, the text for the Horosocope Personality were all taken from [Thought Catalog Article By Gianna Fazzini](https://thoughtcatalog.com/gianna-fazzini/2018/03/everything-you-need-to-know-about-each-of-the-12-zodiac-personalities/).
 
-- For the Horoscope Predictions, data were retreieved from the following API 
+- For the Horoscope Predictions, data were retrieved from the following API 
     * [Horoscope API 1](https://github.com/anujsinghwd/horoscope_API#get-httpsraashiphalherokuappcomtypemonthsunsignsunsign)
     * [Horoscope API 2](https://github.com/sameerkumar18/aztro)
 
 ### Media
-- The photos used in this site were all obtained from [freepik](https://www.freepik.com/home) - a stock image library. Please refer to the full credits and link for each image [here](https://drive.google.com/open?id=1RW7ISUwm2yo8boamNulaxKoPbtTykVB8)
+- The photos used in this site were all obtained from [freepik](https://www.freepik.com/home) - a stock image library. Please refer to the full credits and link for each image [here](https://drive.google.com/open?id=1RW7ISUwm2yo8boamNulaxKoPbtTykVB8).
 
 - Some of the graphics were edited using [Photoshop](https://www.adobe.com/sea/products/photoshop.html?gclid=EAIaIQobChMI_rXt5v2c6AIVWq6WCh3BSwRuEAAYASAAEgIzIPD_BwE&sdid=YP7XGDLR&mv=search&ef_id=EAIaIQobChMI_rXt5v2c6AIVWq6WCh3BSwRuEAAYASAAEgIzIPD_BwE:G:s&s_kwcid=AL!3085!3!400503272159!e!!g!!photoshop) by myself.
 
@@ -158,9 +158,9 @@ There are 3 folders, namely js, cc and img to place the various Javascript files
 - CSS Styling by [Bootstrap4](https://getbootstrap.com/).
 - All fonts used for this site are obtained from [google fonts](https://fonts.google.com/).
 - The landing section star icon is obtained from [Font Awesome](https://fontawesome.com/).
-- The Javascript to identify Horoscope is edited from [CourseWeb.net](https://coursesweb.net/javascript/zodiac-signs_cs)
+- The Javascript to identify Horoscope is edited from [CourseWeb.net](https://coursesweb.net/javascript/zodiac-signs_cs).
 - The Time clock javascript is inspired from [here](https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/JavaScript_Examples.html)
-- The loading animation is inspired and obtained from [CSS Loaders](https://freefrontend.com/css-loaders/)
-- The spinning image animation is inspired and obtained from [Sololearn](https://code.sololearn.com/WX6x1c56OFb5/#html)
+- The loading animation is inspired and obtained from [CSS Loaders](https://freefrontend.com/css-loaders/).
+- The spinning image animation is inspired and obtained from [Sololearn](https://code.sololearn.com/WX6x1c56OFb5/#html).
 
 ### This website created is for educational use.
