@@ -17,13 +17,13 @@ html,body
 {
   width: 100%;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden; 
 }
 
 section {
-    padding: 0px 0;
+    padding: 0;
   }
 
 
@@ -83,19 +83,19 @@ section {
   .spin {
     text-align: center;
     -webkit-animation-name: spinnerRotate;
-    -webkit-animation-duration: 20s;
+    -webkit-animation-duration: 30s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-name: spinnerRotate;
-    -moz-animation-duration: 20s;
+    -moz-animation-duration: 30s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -ms-animation-name: spinnerRotate;
-    -ms-animation-duration: 20s;
+    -ms-animation-duration: 30s;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
     animation-name: spinnerRotate;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
