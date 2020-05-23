@@ -230,6 +230,10 @@ section {
   font-size: 24px;
 }
 
+.text-info2{
+  color:rgb(222, 139, 165);
+  font-size: 18px;
+}
 
 /* Sections CSS */
 .jumbotron{
